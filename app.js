@@ -14,56 +14,107 @@
 // }
 
 // Desafio 2
-let diaDaSemana = prompt('Hoje é Sábado ou Domingo?');
-if(diaDaSemana == 'Sábado') {
-  alert('Boa Semana');
+// let diaDaSemana = prompt('Hoje é Sábado ou Domingo?');
+// if(diaDaSemana == 'Sábado') {
+//   alert('Boa Semana');
+// }else {
+//   alert('Bom final de Semana!');
+// }
+
+// let numero = prompt('Digite um número');
+// if(numero < 0) {
+//   alert('O número é negativo!');
+// } else {
+//   alert('O número é positivo!');
+// }
+
+// let pontuacaoJogo = prompt('Qual a sua pontuação?');
+// if(pontuacaoJogo >= 100) {
+//   alert('Parabéns você venceu!');
+// }else {
+//   alert('Tente novamente para ganhar!');
+// }
+
+// let saldoConta = 1000;
+// alert(`Seu saldo em conta é: ${saldoConta}`);
+
+// let loginUsuário = prompt('Qual é o seu nome?');
+// alert(`Bem Vindo ao Sistema caro ${loginUsuário}`)
+
+// let contadorA = 1;
+// while(contadorA < 11) {
+//   alert('Contador n°' + contadorA);
+//   contadorA++;
+// }
+
+// let contadorB = 10;
+// while(contadorB >= 0) {
+//   alert('Contador n°' + contadorB);
+//   contadorB--;
+// }
+
+// let contadorC = prompt('Digite um número');
+
+// while(contadorC >= 0) {
+//   console.log('Contador regressivo n°' + contadorC);
+//   contadorC--;
+// }
+
+// let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");
+// let contador = 0;
+
+// while (contador <= numeroMaximo) {
+//     console.log(contador);
+//     contador++
+// }
+
+// Desafio final
+
+console.log('Boas vindas!');
+let nome = 'Marcos Santos';
+console.log(`Olá, ${nome}!`);
+alert(`Olá, ${nome}!`)
+let linguaGosta = prompt('Qual a linguagem de programação que você mais gosta?');
+console.log(`A linguagem favorita é ${linguaGosta}!`);
+let valor1 = 15;
+let valor2 = 35;
+let resultado = valor1 + valor2;
+console.log(`A soma do ${valor1} + ${valor2} é igual a ${resultado}.`);
+
+let idade = prompt('Qual a sua idade?');
+if(idade >= 18) {
+  console.log('Maior de Idade, você já pode beber!');
 }else {
-  alert('Bom final de Semana!');
+  console.log('Menor de idade, vá para casa dormir!');
 }
 
-let numero = prompt('Digite um número');
-if(numero < 0) {
-  alert('O número é negativo!');
-} else {
-  alert('O número é positivo!');
-}
-
-let pontuacaoJogo = prompt('Qual a sua pontuação?');
-if(pontuacaoJogo >= 100) {
-  alert('Parabéns você venceu!');
+let numero = prompt('Insira um número...');
+if(numero >=0) {
+  console.log ('Número Positivo!');
 }else {
-  alert('Tente novamente para ganhar!');
+  console.log ('Número Negativo!');
+}if (numero == 0) {
+  console.log ('Número é igual a Zero!')
 }
 
-let saldoConta = 1000;
-alert(`Seu saldo em conta é: ${saldoConta}`);
-
-let loginUsuário = prompt('Qual é o seu nome?');
-alert(`Bem Vindo ao Sistema caro ${loginUsuário}`)
-
-let contadorA = 1;
-while(contadorA < 11) {
-  alert('Contador n°' + contadorA);
-  contadorA++;
+let contador = 10;
+while(contador >= 1) {
+  console.log(contador);
+  contador--;
 }
 
-let contadorB = 10;
-while(contadorB >= 0) {
-  alert('Contador n°' + contadorB);
-  contadorB--;
+let nota = prompt('Qual a nota do aluno?');
+if (nota >= 7) {
+  console.log('Aluno aprovado!');
+}else {
+  console.log('Aluno reprovado!');
 }
 
-let contadorC = prompt('Digite um número');
+let numeroAleatorio = Math.random ();
+console.log(numeroAleatorio);
 
-while(contadorC >= 0) {
-  console.log('Contador regressivo n°' + contadorC);
-  contadorC--;
-}
+let numeroAleatorio1 = parseInt(Math.random() * 10);
+console.log(numeroAleatorio1);
 
-let numeroMaximo = prompt("Digite um número para a contagem progregressiva:");
-let contador = 0;
-
-while (contador <= numeroMaximo) {
-    console.log(contador);
-    contador++
-}
+let numeroAleatorio2 = parseInt(Math.random() * 1000);
+console.log(numeroAleatorio2);
